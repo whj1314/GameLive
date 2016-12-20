@@ -1,0 +1,105 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - CHTCollectionViewWaterfallLayout (0.9.5):
+    - CHTCollectionViewWaterfallLayout/ObjC (= 0.9.5)
+  - CHTCollectionViewWaterfallLayout/ObjC (0.9.5)
+  - CocoaLumberjack (3.0.0):
+    - CocoaLumberjack/Default (= 3.0.0)
+    - CocoaLumberjack/Extensions (= 3.0.0)
+  - CocoaLumberjack/Core (3.0.0)
+  - CocoaLumberjack/Default (3.0.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (3.0.0):
+    - CocoaLumberjack/Default
+  - DACircularProgress (2.3.1)
+  - iCarousel (1.8.3)
+  - LFLiveKit (1.9.6)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - MDCSwipeToChoose (0.2.3)
+  - MJRefresh (3.1.12)
+  - MLTransition (2.1.2)
+  - MWPhotoBrowser (1.3.1):
+    - DACircularProgress
+    - MBProgressHUD
+    - PSTCollectionView (~> 1.2)
+    - SDWebImage (~> 3.5.4)
+  - PSTCollectionView (1.2.3)
+  - SDWebImage (3.5.4):
+    - SDWebImage/Core (= 3.5.4)
+  - SDWebImage/Core (3.5.4)
+  - UITableView+FDTemplateLayoutCell (1.4)
+  - WMPageController (2.2.1)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BlocksKit
+  - CHTCollectionViewWaterfallLayout
+  - CocoaLumberjack
+  - iCarousel
+  - LFLiveKit (~> 1.6)
+  - Masonry
+  - MBProgressHUD
+  - MDCSwipeToChoose
+  - MJRefresh
+  - MLTransition
+  - MWPhotoBrowser
+  - UITableView+FDTemplateLayoutCell
+  - WMPageController
+  - YYKit
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  CHTCollectionViewWaterfallLayout: 775ff73f48cfc13859b62d8bceb96e772e4a0318
+  CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  LFLiveKit: 3944fe79d51e171e391f5c980de4b9ecdb7de957
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MDCSwipeToChoose: 56239d98b4558c66e7c3c9069482befd26092270
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  MLTransition: 26751adac088c07e4df48c9f605cfdd767bb8afa
+  MWPhotoBrowser: 21c403da4f44043e0cd2cd27a6fd30a7f4c431c1
+  PSTCollectionView: 6749df92885353521f55279a7ce2b293762e2be4
+  SDWebImage: 32ca144928625f9a04d561115028cf6db3aa7b63
+  UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
+  WMPageController: 181bcc9b1fb7c9c3466bff66012552953a547d28
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 882ab7191e92adc2b9929f05cea08343b2597f80
+
+COCOAPODS: 1.0.1

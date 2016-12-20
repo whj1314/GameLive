@@ -1,0 +1,59 @@
+//
+//  PrefixHeader.pch
+//  GameLive
+//
+//  Created by tarena on 16/7/26.
+//  Copyright © 2016年 tarena. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#define MAS_SHORTHAND_GLOBALS
+#import "Head.h"
+#import <AFNetworking.h>//网络请求
+#import <BlocksKit.h>
+#import <BlocksKit+UIKit.h>//点击方法
+#import <CHTCollectionViewWaterfallLayout.h>
+#import <AFNetworkActivityIndicatorManager.h>//小菊花
+#import <CocoaLumberjack.h>
+#import <DACircularProgressView.h>
+#import <iCarousel.h>//滚动
+#import <Masonry.h>//自动布局
+#import <MBProgressHUD.h>
+#import <MJRefresh.h>//下拉刷新
+#import <MLTransition.h>//网络状态
+#import <MWPhotoBrowser.h>
+#import <PSTCollectionView.h>
+#import <SDImageCache.h>//照片处理
+#import <UITableView+FDTemplateLayoutCell.h>
+#import <WMPageController.h>
+#import <YYKit.h>//数据处理
+#import <MDCSwipeToChoose/MDCSwipeToChoose.h>
+#import <SMS_SDK/SMSSDK.h>//短信验证
+
+//#import <HyphenateFullSDK/EMSDKFull.h>
+#import "EMSDKFull.h"
+
+#import "Factory.h"
+#import "NSString+whj.h"
+#import "NSObject+parse.h"
+#import "UIScrollView+Rerfresh.h"
+#import "AppDelegate+whj.h"
+
+#import "ShowTimeViewController.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import"EMSDKFull.h"
+//#import "EaseUI.h"
+#import <UIKit/UIKit.h>
+//三方宏
+//#import "ChatDemoUIDefine.h"
+
+#define REDPACKET_AVALABLE
+//#import "EMAlertView.h"
+//#import "TTGlobalUICommon.h"
+#endif
